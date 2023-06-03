@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_finalbng"
+    tools:context=".FinalActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_drawmatch2"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/win">
+    </ImageView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Oops! Match Draw"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:inputType="none"
+        android:id="@+id/edt_win">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/win"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:text="New game"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/newGame">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/win"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:text="Restart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/restart">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/win"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Swipe and Restart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/swipe">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/win"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="100dp"
+        android:text="exit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/left">
+    </Button>
+
+</RelativeLayout>

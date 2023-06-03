@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_homepage1"
+    tools:context=".HomePage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edt_title"
+        android:textStyle="bold"
+        android:textColor="#350F0C"
+        android:textSize="30sp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player-1 -----> X"
+        android:textColor="#F7090000"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player-2 -----> O"
+        android:textColor="#F7090000"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:textAlignment="textStart"
+        android:hint="@string/edt_p1"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColorHint="#0B3A0D"
+        android:textColor="#0B3A0D"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:id="@+id/player1">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/edt_p2"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColorHint="#0B3A0D"
+        android:textColor="#0B3A0D"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:id="@+id/player2">
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C28C42"
+        android:layout_marginTop="30dp"
+        android:text="Play"
+        android:textColor="#100702"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/playBtn">
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>

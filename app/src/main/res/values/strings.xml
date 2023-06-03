@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="edt_title">TIC-TAC-TOE</string>
+    <string name="edt_p1">Enter name of Player-1</string>
+    <string name="edt_p2">Enter name of Player-2</string>
+    <string name="txt_p1">Player-1</string>
+    <string name="txt_p2">Player-2</string>
+</resources>
